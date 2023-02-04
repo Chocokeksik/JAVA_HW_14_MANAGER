@@ -2,7 +2,7 @@ public class Manager {
 
     private Repository repo;
 
-    public Manager (Repository repo) {
+    public Manager(Repository repo) {
         this.repo = repo;
 
     }
@@ -17,7 +17,7 @@ public class Manager {
 
     public Product[] searchBy(String text) {
         Product[] result = new Product[0]; // тут будем хранить подошедшие запросу продукты
-        for (Product product: repo.findAll()) {
+        for (Product product : repo.findAll()) {
             if (matches(product, text)) {
                 // "добавляем в конец" массива result продукт product
                 Product[] tmp = new Product[result.length + 1];

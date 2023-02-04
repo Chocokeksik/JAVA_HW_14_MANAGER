@@ -8,8 +8,8 @@ public class ManagerTest {
         Repository repo = new Repository();
         Manager manager = new Manager(repo);
         Book book1 = new Book(1, "Revizor1", 120, "Gogol");
-        Book book2 = new Book(1, "Revizor2", 120, "Gogol");
-        Book book3 = new Book(1, "Zorro", 120, "Makkali");
+        Book book2 = new Book(2, "Revizor2", 120, "Gogol");
+        Book book3 = new Book(3, "Zorro", 120, "Makkali");
 
         manager.add(book1);
         manager.add(book2);
@@ -27,8 +27,8 @@ public class ManagerTest {
         Repository repo = new Repository();
         Manager manager = new Manager(repo);
         Book book1 = new Book(1, "Revizor1", 120, "Gogol");
-        Book book2 = new Book(1, "Revizor2", 120, "Gogol");
-        Book book3 = new Book(1, "Zorro", 120, "Makkali");
+        Book book2 = new Book(2, "Revizor2", 120, "Gogol");
+        Book book3 = new Book(3, "Zorro", 120, "Makkali");
 
         manager.add(book1);
         manager.add(book2);

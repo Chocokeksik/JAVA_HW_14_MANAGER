@@ -7,9 +7,9 @@ public class NotFoundTest {
     public void testRemove() {
         Repository repo = new Repository();
         Manager manager = new Manager(repo);
-        Book book1 = new Book(1,"Revizor1", 120, "Gogol");
+        Book book1 = new Book(1, "Revizor1", 120, "Gogol");
         Book book2 = new Book(2, "Revizor2", 120, "Gogol");
-        Book book3 = new Book(3,"Zorro", 120, "Makkali");
+        Book book3 = new Book(3, "Zorro", 120, "Makkali");
         Smartphone smartphone1 = new Smartphone(4, "Galaxy", 1000, "Samsung");
 
         manager.add(book1);
@@ -26,9 +26,9 @@ public class NotFoundTest {
     public void testRemove2() {
         Repository repo = new Repository();
         Manager manager = new Manager(repo);
-        Book book1 = new Book(1,"Revizor1", 120, "Gogol");
+        Book book1 = new Book(1, "Revizor1", 120, "Gogol");
         Book book2 = new Book(2, "Revizor2", 120, "Gogol");
-        Book book3 = new Book(3,"Zorro", 120, "Makkali");
+        Book book3 = new Book(3, "Zorro", 120, "Makkali");
         Smartphone smartphone1 = new Smartphone(4, "Galaxy", 1000, "Samsung");
 
         manager.add(book1);

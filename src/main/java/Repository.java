@@ -32,7 +32,7 @@ public class Repository {
 
     private Product findById(int id) {
         for (Product product : products) {
-            if(product.getId() == id) {
+            if (product.getId() == id) {
                 return product;
             }
         }
